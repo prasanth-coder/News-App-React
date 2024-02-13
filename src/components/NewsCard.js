@@ -6,7 +6,7 @@ const NewsCard = ({news}) => {
     console.log(news)
     console.log(news.urlToImage)
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem', minHeight:"400px"}}>
         
       <Card.Img variant="top" src={news.urlToImage===undefined ? "./image.png" : news.urlToImage} />
       <Card.Body>

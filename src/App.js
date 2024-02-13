@@ -21,7 +21,7 @@ const App = () => {
 
   },[category]);
   return (
-    <div>
+    <div className='bg-dark'>
       <Navigation setCategory={setCategory} />
       <News news={news}/>
       <Footer />

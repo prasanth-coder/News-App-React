@@ -11,7 +11,7 @@ const Navigation = ({setCategory}) => {
           <Navbar.Brand href="#home"><Badge className="p-3" bg="danger">
         News App
       </Badge></Navbar.Brand>
-          <Nav className="me-auto mb-10">
+          <Nav className="me-auto">
             <Nav.Link onClick={() => setCategory("sports")}>Sports</Nav.Link>
             <Nav.Link onClick={() => setCategory("entertainment")}>Entertainment</Nav.Link>
             <Nav.Link onClick={() => setCategory("general")}>General</Nav.Link>
